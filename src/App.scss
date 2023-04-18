@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #c7ecee;
+}
+
+.App{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    // padding: 20px 0;
+
+    .heading{
+        background-color: rgb(37, 102, 241);
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+    }
+
+        .input{
+        margin-top: 20px;   
+        }
+
+        .add-btn{
+            margin-top: 20px;
+            width: 200px;
+        }
+}
+
+.item-box{
+    display: flex;
+    align-items: center;
+    margin-top:10px ;
+    justify-content: space-between;
+    width: 48%;
+    height: 60px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+}
